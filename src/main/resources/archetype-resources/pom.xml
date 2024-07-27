@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>$org.siit.automation-local-proj</groupId>
   <artifactId>$automation-local-proj</artifactId>
-  <version>$0.01</version>
+  <version>$0.0.1</version>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
