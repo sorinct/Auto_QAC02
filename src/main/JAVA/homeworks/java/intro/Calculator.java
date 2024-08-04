@@ -12,7 +12,7 @@ public class Calculator {
             switch (operator) {
                 case "+":
                     result = a + b;
-                    break;
+                  break;
                 case "-":
                     result = a - b;
                     break;
@@ -26,17 +26,17 @@ public class Calculator {
                     if (b != 0) {
                         result = a / b;
                     } else {
-                        System.err.println("Error: B can't be zero!");
+                        System.out.println("B can't be zero!");
                         return;
                     }
                     break;
                 default:
-                    System.err.println("Invalid operator! Use +, -, *, % or /.");
+                    System.out.println("Invalid operator! Use +, -, *, % or /.");
                     return;
             }
             System.out.println("The result is:" + result);
         } else {
-            System.err.println("3 args are needed!");
+            System.out.println("3 arguments are needed!");
         }
     }
 }
