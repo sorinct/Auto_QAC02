@@ -1,5 +1,5 @@
 package homeworks.java.intro;
-//2) Implement an arithmetic calculator that takes 3 arguments:
+// Implement an arithmetic calculator that takes 3 arguments:
 //the first number, the operation, the second number and displays the result
 
 public class Calculator {
@@ -31,10 +31,10 @@ public class Calculator {
                     }
                     break;
                 default:
-                    System.out.println("Invalid operator! Use +, -, *, % or /.");
+                    System.out.println("Invalid operator! Use +, -, *, % or / .");
                     return;
             }
-            System.out.println("The result is:" + result);
+            System.out.println("The result is: " + result);
         } else {
             System.out.println("3 arguments are needed!");
         }
