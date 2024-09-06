@@ -10,5 +10,5 @@
         <classes>
             <class name="testNG.MyFirstNGTest"/>
         </classes>
-    </test> <!-- Auto_QAC02 -->
-</suite> <!-- Default Suite -->
+    </test>
+</suite>
